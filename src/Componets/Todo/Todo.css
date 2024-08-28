@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.main{
+    width: 400px;
+    height: auto;
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.todo_title{
+    text-align: center;
+}
+
+.todo_input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+.todo_input input::placeholder{
+    color: #000;
+}
+.todo_input input{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 100%;
+}
+
+
+.todo_input button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo_list{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.todo_list ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.todo_list ul li{
+    width: 100%;
+    height: 40px;
+    background: #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #000;
+}
+.todo_list ul li button{
+    padding: 3px 5px;
+    background: #000;
+    color: rgb(156, 39, 39);
+    font-size: 16px;
+    border: none;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
